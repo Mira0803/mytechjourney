@@ -26,6 +26,7 @@ body {
     width: 400px;
     height: 550px;
     border-right: 1px solid #fff;
+    overflow: hidden;
 }
 
 .description {

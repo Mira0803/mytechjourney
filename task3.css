@@ -1,0 +1,87 @@
+body {
+    background-color: #2b2b32;
+    color: #f5f6fc;
+    font-family: Tahoma;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 30px auto;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    justify-content: center;
+    width: fit-content;
+    background-color: #3b3b4f;
+}
+
+.profileimg img {
+    border-radius: 20px 0 0  20px ;
+    padding: 0;
+    width: 400px;
+    height: 550px;
+    border-right: 1px solid #fff;
+}
+
+.description {
+    width: 400px;
+    height: 550px;
+    max-width: 500px;
+    padding: 0 15px 0 15px;
+    border-radius: 0 20px 20px 0;
+    backdrop-filter: blur(30px);
+}
+
+.user-comment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+
+.user-comment textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #f5f6fc;
+    background-color: #0a0a23;
+    border: 1px solid #f5f6fc;
+}
+
+span {
+    color: #06061b;
+}
+
+button {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    color: #ffffff;
+}
+
+textarea:focus {
+    border: 1px solid #f5f6fc;
+    box-shadow: 0 0 5px #fff;
+}
+
+button:hover {
+    background-color: #0a0a23;
+    box-shadow: 0 0 5px #fff;
+}
+
+button:active {
+    background-color: green;
+}

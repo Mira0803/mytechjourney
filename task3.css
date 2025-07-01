@@ -29,11 +29,7 @@ body {
     width: 400px;
     height: 550px;
     border-right: 1px solid #fff;
-<<<<<<< HEAD
-    overflow: hidden;
-=======
     object-fit: cover;
->>>>>>> 59f4f73 (update layout and make it mobile responsive)
 }
 
 .description {
@@ -95,8 +91,6 @@ button:hover {
 button:active {
     background-color: green;
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 767px) {
   .container {
@@ -110,12 +104,28 @@ button:active {
     border-radius: 20px 20px 0 0;
     border-right: none;
     border-bottom: 1px solid #fff;
+    object-fit: cover;
   }
 
   .description {
     width: 100%;
+    padding: 15px;
     height: auto;
+    box-sizing: border-box;
     border-radius: 0 0 20px 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .description p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+
+  .user-comment {
+    margin-top: 20px;
   }
 
   button {
@@ -123,4 +133,3 @@ button:active {
     min-width: unset;
   }
 }
->>>>>>> 59f4f73 (update layout and make it mobile responsive)

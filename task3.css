@@ -8,16 +8,19 @@ body {
 }
 
 .container {
-    margin: 30px auto;
-    align-items: center;
-    border-radius: 20px;
     display: flex;
-    margin-bottom: 30px;
-    border: 1px solid #fff;
-    box-shadow: 0 0 10px #fff;
+    flex-direction: row;
+    align-items: stretch;
     justify-content: center;
+    border: 1px solid #fff;
+    margin: 30px auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px #fff;
     width: fit-content;
     background-color: #3b3b4f;
+    max-width: 900px;
+    overflow: hidden;
 }
 
 .profileimg img {
@@ -26,7 +29,11 @@ body {
     width: 400px;
     height: 550px;
     border-right: 1px solid #fff;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+    object-fit: cover;
+>>>>>>> 59f4f73 (update layout and make it mobile responsive)
 }
 
 .description {
@@ -55,15 +62,16 @@ body {
     color: #f5f6fc;
     background-color: #0a0a23;
     border: 1px solid #f5f6fc;
+    resize: vertical;
 }
 
 span {
-    color: #06061b;
+    color: 	#6c86b2;
 }
 
 button {
     display: block;
-    width: 60%;
+    width: 80%;
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
@@ -71,6 +79,7 @@ button {
     border-color: white;
     min-width: 300px;
     color: #ffffff;
+    border-radius: 10px;
 }
 
 textarea:focus {
@@ -86,3 +95,32 @@ button:hover {
 button:active {
     background-color: green;
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .profileimg img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+  }
+
+  .description {
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 20px 20px;
+  }
+
+  button {
+    width: 100%;
+    min-width: unset;
+  }
+}
+>>>>>>> 59f4f73 (update layout and make it mobile responsive)
